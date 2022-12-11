@@ -1,0 +1,9 @@
+Ссылка для скачивания датасета активна только 1 раз, 
+затем каждый раз нужно переходить по ссылке 
+https://cellxgene.cziscience.com/collections/9c8808ce-1138-4dbe-818c-171cff10e650 
+выбирать A Single-Cell Transcriptional Roadmap of the Mouse and Human Lymph Node Lymphatic Vasculature - human
+нажимать download 
+затем нажимать DATA FORMAT .h5ad (AnnData v0.8)
+снизу появится активная ссылка, которую нужно скопировать и вставить в коллаб
+curl -o local.h5ad "https://corpora-data-prod.s3.amazonaws.com/6194c9ee-2d69.... и тд
+а затем поменять имя загружаемого файла local.h5ad на scrnaseq.h5ad
